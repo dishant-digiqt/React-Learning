@@ -2,9 +2,11 @@ import React from "react";
 
 function Header() {
     return (
-        <header> This is the Header</header>
+        <header className="navbar"> This is the Header</header>
     )
 }
 
 
 export default Header
+
+// document.getElementById("something").className += "new-class-name"
